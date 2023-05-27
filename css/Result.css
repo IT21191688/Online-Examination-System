@@ -1,0 +1,66 @@
+
+body {
+    background-image: url(../images/Background.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.table1{
+    border: 1px black;
+    width: 800px;
+    color: rgb(0, 0, 0);
+    margin-left: 40%;
+    background-color: rgb(13, 42, 228);
+    border-collapse:collapse;
+    height: 40px;
+    cursor: pointer;
+    
+   
+}
+.table1 td{
+    height: 30px;
+}
+.table1 th{
+    background-color: brown;
+    font-size: 18px;
+    padding: 5px 5px 5px 5px;
+    height: 40px;
+}
+.table1{
+    opacity: 0.9;
+}
+td{
+    font-weight: 700;
+    color: rgb(31, 26, 31);
+    text-align: center;
+}
+
+.resultDa{
+   top: 200px;
+   position:absolute;
+}
+
+#myTable tr {
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+.searchBar{
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+}
+.search{
+    color: rgb(60, 88, 4);
+    margin-left: 630px;
+    font-size: 20px;
+}

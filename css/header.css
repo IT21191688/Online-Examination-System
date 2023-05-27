@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Odia&family=Archivo+Narrow&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  height: 100px;
+  background-color: #04044c;
+}
+
+.header {
+  color: white;
+  font-family: "Anek Odia", sans-serif;
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 5% 10px 5%;
+}
+
+.logo {
+  width: 60px;
+  position: relative;
+  bottom: 8px;
+  padding-top: 10px;
+}
+
+.logo-text {
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.aPlus,
+.exams-logo {
+  color: white;
+}
+
+.aPlus {
+  color: #8a2be2;
+  font-size: 3rem;
+  font-family: "Dancing Script", cursive;
+  position: relative;
+  bottom: 8px;
+}
+
+.exams-logo {
+  font-size: 1.8rem;
+  font-family: "Exo 2", sans-serif;
+  position: relative;
+  bottom: 5px;
+  color: rgb(187, 187, 187);
+}
+
+.nav-bar ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 0px 20px;
+}
+
+.nav-bar ul li a {
+  position: relative;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.nav-bar a:hover {
+  color: blueviolet;
+}
+
+.nav-bar a:not(.current-page, .login, .profile)::after {
+  content: "";
+  position: absolute;
+  background-color: blueviolet;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+
+  transform: scaleX(0);
+  transition: transform 100ms ease;
+  transform-origin: cneter;
+}
+
+.nav-bar a:hover::after {
+  transform: scaleX(1);
+  transform-origin: center;
+}
+
+.nav-bar ul li .avatar {
+  font-size: 2rem;
+}
+
+.login {
+  color: white;
+  background-color: blueviolet;
+  font-weight: bolder;
+  border-radius: 15px;
+  width: 90px;
+  height: 35px;
+  cursor: pointer;
+  border: 0;
+  position: relative;
+  bottom: 0px;
+}
+
+.login:hover {
+  transform: scale(1.1);
+  transition: all 150ms ease;
+  background-color: white;
+  color: blueviolet;
+}
+
+.nav-bar ul li .current-page {
+  color: blueviolet;
+  position: relative;
+}

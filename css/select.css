@@ -1,0 +1,48 @@
+.div{
+	border: 3px solid black;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-right: 300px;
+	margin-left: 300px;
+	height: 400px;
+	padding-top: 129px;
+	background-color: white;
+	opacity: .8;
+	border-radius: 10px;
+}
+.btn{
+	margin-left: 210px;
+	width: 500px;
+	height: 60px;
+	font-size: 20px;
+	border-radius: 10px;
+	border: none;
+}
+.emp{
+	background-color: #9205f0;
+	color: white;
+	opacity: 1;
+}
+#exm{
+	background-color: #19007d;
+	color: white;
+	opacity: 1;
+}
+#emp:hover{
+	background-color: #c175fa;
+}
+#exm:hover{
+	background-color: #43007d;
+}
+.nav-bar ul li .current-page {
+  color: blueviolet;
+  position: relative;
+}
+body{
+	background-image: url(../images/123.jpg);
+	min-height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

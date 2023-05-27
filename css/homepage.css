@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap");
+
+.header-down {
+  background-color: #04044c;
+  display: flex;
+  justify-content: center;
+  height: 350px;
+  width: 100%;
+}
+
+.view-profile {
+  text-decoration: none;
+  color: white;
+  position: relative;
+}
+
+.view-profile:hover {
+  color: blueviolet;
+}
+
+.view-profile i {
+  color: green;
+}
+
+.signupContent {
+  width: 85%;
+  padding: 30px;
+  padding-top: 60px;
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  height: 330px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.para {
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.left-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-content {
+  position: relative;
+  bottom: 60px;
+}
+
+.cover-pic {
+  width: 410px;
+}
+
+.left-content p {
+  padding-bottom: 20px;
+}
+
+.signup {
+  width: 150px;
+  height: 45px;
+  border-radius: 20px;
+  border-style: none;
+  color: white;
+  background-color: blueviolet;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.signup:hover {
+  transform: scale(1.1);
+  transition: all 150ms ease;
+  color: blueviolet;
+  background-color: white;
+}
+
+/* BODY */
+.logo-letter {
+  font-size: 3rem;
+}
+
+.text-logo {
+  font-size: 2.6rem;
+  font-family: "Exo 2", sans-serif;
+  position: relative;
+  bottom: 5px;
+  color: rgb(89, 89, 89);
+  padding-right: 12px;
+}
+
+.topic {
+  font-family: "Exo 2", sans-serif;
+  color: rgb(89, 89, 89);
+  padding-top: 60px;
+  text-align: center;
+  font-size: 2.4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.topic span {
+  padding-top: 10px;
+}
+
+.main-body {
+  width: 100%;
+  height: 1000px;
+  padding-top: 50px;
+}
+
+.card {
+  width: 85%;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 50px;
+}
+
+.card:hover {
+  background-color: rgb(225, 223, 223);
+  transform: scale(1.1);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  box-shadow: 7px 10px 10px darkgray;
+}
+
+.section {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image {
+  height: 100%;
+  margin-left: auto;
+  padding-right: 10%;
+}
+
+.result {
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 10%;
+}
+
+.main-body p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  color: rgb(92, 90, 90);
+}
+
+.second-card p {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.actions {
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
+  border-style: none;
+  color: white;
+  background-color: blueviolet;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+}
+
+.actions::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+  z-index: -1;
+
+  transform: scale(0);
+  transition: transform 150ms ease;
+}
+
+.actions:hover {
+  color: blueviolet;
+}
+
+.actions:hover::after {
+  transform: scale(1);
+  transition: transform 150ms ease;
+}
+
+.third-btn {
+  width: 250px;
+}

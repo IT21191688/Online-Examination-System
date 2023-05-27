@@ -1,0 +1,79 @@
+h3 {
+  border: 2px solid #0b0670;
+  text-align: center;
+  font-size: 30px;
+  background-color: #690099;
+  height: 70px;
+  padding-top: 15px;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn {
+  background-color: #0b0670;
+  color: white;
+  font-size: 20px;
+  padding: 3px 3px 3px 3px;
+  width: 200px;
+  height: 70px;
+  border: none;
+  border-radius: 10px;
+}
+
+.menu {
+  width: 210px;
+}
+
+.t2 {
+  width: 1000px;
+  padding-left: 200px;
+  padding-top: 70px;
+}
+
+.btn1 {
+  padding-left: 0px;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: #7543ba;
+}
+
+fieldset {
+  background-color: #c29cf7;
+  border: none;
+  border-radius: 10px;
+  border: 2px solid black;
+  height: 600px;
+  padding-top: 15px;
+}
+
+#finish {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#finish:hover {
+  background-color: #0b0670;
+}
+.nav-bar ul li .current-page {
+  color: blueviolet;
+  position: relative;
+}
+body {
+  background-image: url(../images/background.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.lable {
+  font-size: 20px;
+}

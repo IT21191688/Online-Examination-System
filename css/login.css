@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.main-login {
+  width: 100%;
+  height: 550px;
+  background-color: lightgrey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgb(4, 4, 76);
+  background: linear-gradient(
+    47deg,
+    rgb(199, 172, 216) 0%,
+    rgb(241, 241, 244) 24%,
+    rgb(149, 158, 187) 84%,
+    rgb(251, 247, 255) 100%
+  );
+}
+
+.login-body {
+  width: 70vw;
+  height: 85%;
+  background-color: white;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  box-shadow: 7px 7px 10px rgb(56, 55, 112);
+}
+
+.pane {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right {
+  justify-content: center;
+  background-color: blueviolet;
+  border-radius: 0px 20px 20px 0px;
+}
+
+.right .login-bg {
+  width: 60%;
+}
+
+.right p {
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+
+.title {
+  font-size: 2rem;
+  width: 100%;
+  padding: 30px 0px 20px 0px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(102, 40, 161);
+  text-align: center;
+}
+
+form .input label {
+  padding-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  padding-left: 2px;
+}
+
+.left {
+  position: relative;
+}
+
+.left .input {
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input .insert {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+}
+
+.left form input:not(.submit) {
+  border-radius: 10px;
+  height: 40px;
+  width: 250px;
+  border: 1.3px solid blueviolet;
+  padding-left: 10px;
+}
+
+.left form input:focus {
+  outline: none;
+  border-color: blue;
+  transform: scale(1.05);
+  transition: all 150ms ease;
+  box-shadow: 5px 5px 10px rgb(109, 108, 108);
+}
+
+form .btn {
+  display: flex;
+  justify-content: center;
+}
+
+form .btn .submit {
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+form .btn .submit:hover {
+  background-color: lightgray;
+  color: blueviolet;
+  transform: scale(1.1);
+  transition: all 150ms ease;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px darkgray;
+}
+
+.left p {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+}
+
+.left p a {
+  text-decoration: none;
+  color: blueviolet;
+  position: relative;
+}
+
+.left p a:hover {
+  color: blue;
+}
+
+.no-acc {
+  padding-top: 20px;
+  text-align: center;
+}
+
+form .error {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  color: red;
+  text-align: center;
+}

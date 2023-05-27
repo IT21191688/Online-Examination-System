@@ -1,0 +1,142 @@
+#table {
+  padding-left: 260px;
+}
+
+#fieldset {
+  padding: 5px 10px 10px 10px;
+  border-radius: 20px;
+  border: 10px;
+}
+
+#th {
+  padding-left: 200px;
+}
+
+#finish {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+#finish:hover {
+  background-color: darkblue;
+  cursor: pointer;
+}
+
+.load {
+  background-color: green;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+.load:hover {
+  background-color: lightgreen;
+  color: darkgreen;
+}
+
+#dwld {
+  background-color: orange;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+#dwld:hover {
+  background-color: lightcoral;
+}
+#enroll {
+  height: 30px;
+  width: 300px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: bold;
+}
+#div1 {
+  width: 400px;
+  height: 500px;
+  border: 3px solid black;
+  padding-top: 30px;
+  margin-top: 50px;
+  border-radius: 20px;
+  background-color: #d87dff;
+}
+#div1:hover {
+  background-color: #63ffce;
+}
+#div2:hover {
+  background-color: #63ffce;
+}
+#brows {
+  height: 50px;
+}
+#div2 {
+  width: 400px;
+  height: 500px;
+  border: 3px solid black;
+  padding-top: 30px;
+  margin-top: 50px;
+  padding-top: 40px;
+  border-radius: 20px;
+  background-color: #d87dff;
+}
+body {
+  background-image: url(../images/background.jpg);
+  min-height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.nav-bar ul li .current-page {
+  color: blueviolet;
+  position: relative;
+}
+
+#reset {
+  background-color: black;
+  width: 200px;
+  height: 50px;
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+#reset:hover {
+  background-color: #6423fc;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.add {
+  background-color: navy;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.add:hover {
+  background-color: black;
+}

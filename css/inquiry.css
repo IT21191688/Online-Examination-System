@@ -1,0 +1,112 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 100%;
+
+
+}
+
+.para2 {
+    color: yellow;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.form {
+
+    background-color: rgb(55, 16, 92);
+    color: white;
+    border-radius: 10%;
+    box-sizing: content-box;
+    width: 700px;
+    height: 1150px;
+    margin:5em auto;
+    padding: 0px 30px 30px 30px;
+    margin-bottom: 90px;
+    opacity: 0.95;
+
+}
+#form{
+    background-color: rgb(55, 16, 92);
+    color: white;
+    border-radius: 10%;
+    box-sizing: content-box;
+    width: 700px;
+    height: 1150px;
+    margin:5em auto;
+    padding: 0px 30px 30px 30px;
+    margin-bottom: 90px;
+    opacity: 0.95;
+
+}
+
+.status{
+    width: 400px;
+    height: 50px;
+    
+}
+
+.Name,
+.Registration,
+.email,
+.subject,
+.p_No {
+    width: 55%;
+    font-size: 16px;
+    background: rgba(111, 160, 233, 0.1);
+    border-radius: 20px;
+    color:white;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    border: 2px solid white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 32px;
+}
+
+
+
+.type {
+    width: 55%;
+    font-size: 16px;
+    background: rgba(111, 160, 233, 0.1);
+    border-radius: 20px;
+    padding: 12px 20px;
+    color: white;
+    box-sizing: border-box;
+    border: 2px solid white;
+    margin-bottom: 32px;
+    font-family: sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.type option {
+    background-color: black;
+    color: white;
+}
+.descripton{
+    width: 400px;
+    height: 100px;
+}
+
+.submit,
+.reset {
+
+    font-size: 20px;
+    width: 20%;
+    padding: 12px 20px;
+    margin-left: 130px;
+    margin-top: 65px;
+    border-radius: 40px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: navy;
+
+}
+
+.submit:hover {
+    background-color: black;
+    color: white;
+}

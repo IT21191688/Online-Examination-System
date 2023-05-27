@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.signup-main {
+  width: 100%;
+  height: 810px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(4, 4, 76);
+  background: linear-gradient(
+    47deg,
+    rgb(199, 172, 216) 0%,
+    rgb(241, 241, 244) 24%,
+    rgb(149, 158, 187) 84%,
+    rgb(251, 247, 255) 100%
+  );
+}
+
+.register {
+  height: 85%;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px rgb(56, 55, 112);
+  background: rgb(255, 255, 255);
+}
+
+.register form .details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.register form .details .input {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: calc(100% / 2 - 50px);
+  padding-bottom: 10px;
+  margin-top: 5px;
+}
+
+form .details .input label {
+  padding-bottom: 5px;
+  padding-top: 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  padding-left: 2px;
+}
+
+.register form input:not(.submit) {
+  border-radius: 10px;
+  height: 40px;
+  border: 1.3px solid blueviolet;
+  padding-left: 10px;
+}
+
+.register form input:focus {
+  outline: none;
+  border-color: blue;
+  transform: scale(1.05);
+  transition: all 150ms ease;
+  box-shadow: 5px 5px 10px rgb(109, 108, 108);
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.register form .create .submit {
+  width: 180px;
+  height: 45px;
+  border: none;
+  border-radius: 20px;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1.1rem;
+  position: relative;
+}
+
+.register form .create .submit:hover {
+  background-color: lightgray;
+  color: rgb(126, 66, 181);
+  transform: scale(1.1);
+  transition: all 150ms ease;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px darkgray;
+}
+
+.register .exists {
+  padding-top: 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+}
+
+.register .exists a {
+  text-decoration: none;
+  color: blueviolet;
+  position: relative;
+}
+
+.register .exists a:hover {
+  color: blue;
+}
+
+.title {
+  font-size: 2rem;
+  width: 100%;
+  padding: 20px 0px 20px 0px;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(102, 40, 161);
+  text-align: center;
+}
+
+.register form .error {
+  padding-top: 10px;
+  padding-left: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  color: red;
+}
+
+/* update profile styling */
+
+.update {
+  height: 60%;
+}

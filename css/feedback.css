@@ -1,0 +1,77 @@
+body
+{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    max-width: 100%;
+
+
+}
+.para1
+{
+    color:rgb(10, 233, 58); 
+	font-size:35px;
+    text-align: center; 
+	margin-top:0px;
+	margin-bottom:50px;
+}
+.para2
+{
+    color:white; 
+    margin-top: 0px;
+    margin-bottom: 30px;
+	font-size:26px; 
+
+}
+form{
+    opacity: 0.9;
+}
+.main1{
+    background-color: rgb(4, 4, 76);
+    color: white;
+    border-radius: 10%;
+    width: 600px;
+    height: 700px;
+    box-sizing: content-box;
+    margin: 5em auto;
+    padding:0px 30px 50px 30px;
+    margin-bottom: 100px;
+}
+.type, .Registration
+{
+    width: 55%;
+    font-size: 16px;
+    background: rgba(136, 126, 126, 0.1);
+    color:white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    font-family: sans-serif;
+    margin-bottom: 32px;
+}
+.type option
+{
+    background-color: black;
+    color: aliceblue;
+}
+.submit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #f1f1f1;
+    color: black;
+    font-size: 16.5px;
+    padding: 15px 30px;
+    margin-top:500px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;  
+ 
+  }
+  
+  .submit:hover {
+    background-color: black;
+    color: white;
+  }

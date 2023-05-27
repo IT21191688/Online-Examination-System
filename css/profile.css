@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.view-profile {
+  background: rgb(4, 4, 76);
+  background: linear-gradient(
+    47deg,
+    rgb(199, 172, 216) 0%,
+    rgb(241, 241, 244) 24%,
+    rgb(149, 158, 187) 84%,
+    rgb(251, 247, 255) 100%
+  );
+  width: 100%;
+  height: 850px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  border-radius: 20px;
+  box-shadow: 7px 7px 10px rgb(56, 55, 112);
+  background: rgb(255, 255, 255);
+  height: 85%;
+  width: 60vw;
+  padding: 40px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.profile-icon {
+  width: 100%;
+  font-size: 7rem;
+  text-align: center;
+  color: darkgrey;
+}
+
+.username {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.status {
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(114, 113, 113);
+  padding-top: 10px;
+}
+
+.details {
+  padding: 30px 50px 0px 50px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding: 20px;
+}
+
+.title {
+  flex: 1;
+  font-size: 1rem;
+}
+
+.db-detail {
+  color: rgb(29, 18, 119);
+  flex: 2;
+  font-size: 1rem;
+}
+
+.buttons {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+.buttons a {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.btn {
+  width: 180px;
+  height: 45px;
+  border-radius: 20px;
+  border-style: none;
+  color: white;
+  background-color: blueviolet;
+  font-size: 1rem;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.btn1 {
+  width: 150px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: all 150ms ease;
+}
+
+.update:hover {
+  background-color: green;
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+.update i {
+  color: rgb(2, 255, 61);
+  padding-right: 5px;
+}
+
+.delete i {
+  color: rgb(153, 44, 44);
+  padding-right: 5px;
+}
